@@ -1,3 +1,10 @@
+In This project I created a process simulator for 4 schedulers: FCFS, SJF, HRRN and RR.
+The script is getting 4 agruments:
+arg[1]= the type of scheduler (FCFS=1, SJF=2, HRRN=3 and RR=4)
+arg[2]= lambda that will be used to compute the processes' arrival time 
+arg[3]= service time for the processes
+arg[4]= quantum time for Round Robin scheduler
+
 To compile the code:
 
 the code is in python 3, therefore, the bash script should be:
